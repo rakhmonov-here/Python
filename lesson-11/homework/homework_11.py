@@ -40,11 +40,11 @@ def count_vowels(s):
 import math_operations
 import string_utils
 
-print(math_operations.add(10, 5))         # ➜ 15
-print(math_operations.divide(10, 2))      # ➜ 5.0
+print(math_operations.add(10, 5))         
+print(math_operations.divide(10, 2))      
 
-print(string_utils.reverse_string("hello"))    # ➜ "olleh"
-print(string_utils.count_vowels("hello"))      # ➜ 2
+print(string_utils.reverse_string("hello"))    
+print(string_utils.count_vowels("hello"))      
 
 # 3) Create custom packages.
 
@@ -91,12 +91,12 @@ from geometry import calculate_area, calculate_circumference
 from file_operations import read_file, write_file
 
 # Geometry test
-print("Area:", calculate_area(5))                    # ➜ 78.5398...
-print("Circumference:", calculate_circumference(5))  # ➜ 31.4159...
+print("Area:", calculate_area(5))                    
+print("Circumference:", calculate_circumference(5))  
 
 # File operations test
 file_path = "test.txt"
 write_file(file_path, "Hello, custom packages!")
-print(read_file(file_path))                          # ➜ "Hello, custom packages!"
+print(read_file(file_path))                          
 
 
